@@ -6,8 +6,8 @@
 
 ;; Some functionality uses this to identify you, e.g. GPG configuration, email
 ;; clients, file templates and snippets.
-(setq user-full-name "Andrew Daivs"
-      user-mail-address "andrew.davis@colostate.edu")
+(setq user-full-name "Andrew Davis"
+      user-mail-address "gtv6bk@virginia.edu")
 
 ;; Doom exposes five (optional) variables for controlling fonts in Doom. Here
 ;; are the three important ones:
@@ -59,8 +59,6 @@
 ;;
 ;; You can also try 'gd' (or 'C-c c d') to jump to their definition and see how
 ;; they are implemented.
-(add-to-list 'load-path "~/bin/emacs-libvterm")
-(require 'vterm)
 
 ;; Set swiper in place of incremental search
 (global-set-key (kbd "C-s") 'swiper)
